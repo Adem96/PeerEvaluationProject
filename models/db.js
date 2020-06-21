@@ -1,4 +1,6 @@
 var mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://test:test@cluster0-fbaku.mongodb.net/prv?retryWrites=true&w=majority',{ useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true },()=>{
-console.log('db connect')
+mongoose.connect('mongodb+srv://skan:skan@cluster0-pegxl.mongodb.net/skan?retryWrites=true&w=majority',{ useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true },
+(err)=>{
+console.log(err);
 });
+
